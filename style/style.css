@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 1.5em 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover, .active {
+    color: #ffdd57;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover;
+    color: #0d2e75;
+    text-align: center;
+    padding: 5em 1em;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content .btn {
+    padding: 0.8em 2em;
+    color: #fff;
+    background-color: #2575fc;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.hero-content .btn:hover {
+    background-color: #1a5bbd;
+}
+
+/* Services Section */
+.services {
+    margin: 3em 0;
+    text-align: center;
+}
+
+.services h3 {
+    font-size: 2em;
+    color: #2575fc;
+    margin-bottom: 1em;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5em;
+    margin-top: 2em;
+}
+
+.card {
+    background: #fff;
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card h4 {
+    font-size: 1.5em;
+    color: #2575fc;
+    margin-bottom: 0.5em;
+}
+
+.card p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Call-to-Action Section */
+.call-to-action {
+    text-align: center;
+    padding: 2em;
+    background-color: #2575fc;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 2em 0;
+}
+
+.call-to-action h3 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.call-to-action p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.call-to-action .btn {
+    background-color: #ffdd57;
+    color: #333;
+    padding: 0.8em 2em;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.call-to-action .btn:hover {
+    background-color: #f4c700;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9em;
+    margin-top: 3em;
+}
