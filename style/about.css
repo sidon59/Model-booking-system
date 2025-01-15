@@ -1,0 +1,104 @@
+/* About Us Page Specific Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 1.5em 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover, .active {
+    color: #ffdd57;
+}
+
+.about-section {
+    max-width: 800px;
+    margin: 3em auto;
+    background: #fff;
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    color: #2575fc;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.about-section h3 {
+    font-size: 1.8em;
+    color: #2575fc;
+    margin-top: 1.5em;
+}
+
+.about-section p {
+    margin: 1em 0;
+}
+
+.about-section ul {
+    list-style-type: disc;
+    margin: 1em 0 1em 1.5em;
+    padding-left: 1em;
+}
+
+.about-section ul li {
+    margin-bottom: 0.5em;
+    color: #555;
+}
+
+/* General Container Styles */
+.container {
+    padding: 0 1em;
+}
+
+/* Footer Alignment */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9em;
+    margin-top: 3em;
+}
